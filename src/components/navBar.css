@@ -22,9 +22,9 @@
     display: flex;
     align-items: flex-start ;
     justify-content:space-between;
-    /* background-color: var(--shadow); */
+    /* background-color: whitesmoke; */
     padding: 0 10px;
-    
+    box-shadow: 3px 3px rgba(194, 194, 194, .3);      
 }
  li {
     list-style-type: none;
@@ -54,7 +54,8 @@
     width: 32px;
     height: 32px;
     padding-right: 10px;
-    padding-bottom: 5px
+    padding-bottom: 5px;
+    margin-left: 5px;
  }
  .mainNav a:hover {
     background-color: var(--hover);
