@@ -2,8 +2,9 @@ import React from 'react';
 import './App.css';
 import NavBar from './components/Nav/navBar';
 import Banner from './components/Banner/banner';
-import NavMenu from './components/Menu/navMenu';
 import Btn from './components/Menu/btn';
+import NavMenu from './components/Menu/navMenu';
+import Reviews from './components/Reviews/reviews';
 
 
 
@@ -12,7 +13,9 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner />
+      <NavMenu/>
       <Btn />
+      <Reviews />
     </div>
   );
 }

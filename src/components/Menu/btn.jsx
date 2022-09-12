@@ -1,13 +1,19 @@
 import React, {useState} from 'react';
-import NavMenu from './navMenu';
+import NavMenu2 from './navMenu2';
 
 
 function Btn() {
-    const [display, setDisplay] = useState(true)
+    const [display, setDisplay] = useState(false)
+    const [name, setName] = useState('Show Full Menu')
+
+    const clickHandler = () => {
+        setDisplay(!display)
+        setName('Hide Menu' )
+    }
     return ( 
         <>
-        {display && <NavMenu />}
-        <button className='btn1' onClick={() => setDisplay(!display)}>Full Menu</button>
+        {display && <NavMenu2 />}
+        <button className='btn1' onClick={clickHandler}>{name}</button>
         </>
      );
 }
