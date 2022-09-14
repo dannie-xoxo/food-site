@@ -5,6 +5,7 @@ import Banner from './components/Banner/banner';
 import Btn from './components/Menu/btn';
 import NavMenu from './components/Menu/navMenu';
 import Reviews from './components/Reviews/reviews';
+import Blog from './components/Blog/blog';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <NavMenu/>
       <Btn />
       <Reviews />
+      <Blog />
     </div>
   );
 }
