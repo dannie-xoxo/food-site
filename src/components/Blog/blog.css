@@ -1,4 +1,44 @@
-.grad {
+.blog-cont {
 min-width: 100%;
-height: 500px;
+min-height: 500px;
+padding: 50px;
 }
+.blog-row {
+    display: grid;
+    grid-gap: 10px 0;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.blog1{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin:20px;
+    font-size: .9em;
+    background-color: var(--light);
+    padding: 15px;
+    box-shadow: var(--shadow); 
+}
+.blog-img1 {
+     border-radius:50%;
+     width: 200px;
+     height: 180px;
+     margin: auto;
+  } 
+  .blog-head {
+    font-size: 2.5em;
+  }
+  span {
+    color: var(--hover);
+    font-size: .8em;
+    font-weight: bolder;
+  } 
+  p {
+    font-size: .9em;
+  }
+  .read {
+    color: var(--hover);
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bolder;
+  }
