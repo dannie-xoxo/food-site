@@ -35,9 +35,8 @@
     padding:  10px 20px;
  }
 .active {
-   /* background-color: var(--hover); */
-   text-decoration: underline 3px solid red ;
-   /* color: var(--light); */
+   background-color: var(--hover);
+   color: var(--light);
    border-radius: 25px;
 }
  .navItem  {

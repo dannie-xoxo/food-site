@@ -14,28 +14,28 @@ function NavMenu2() {
                     <h2>Jollof Rice and Chicken</h2>
                     <p>Hot and spicy with grilled, marinated chicken<br/>
                 it can be served any assortments of your choice</p>
-                <p>$9.99</p>
+                <p>$5.99</p>
         </div>
         <div className= 'menu1'>
                 <img className='feat-img1' src= {chicken} alt=''/>
                     <h2>Jollof Rice and Chicken</h2>
                     <p>Hot and spicy with grilled, marinated chicken<br/>
                 it can be served any assortments of your choice</p>
-                <p>$9.99</p>
+                <p>$7.99</p>
         </div>
         <div className= 'menu1'>
                 <img className='feat-img1' src= {chicken} alt=''/>
                     <h2>Jollof Rice and Chicken</h2>
                     <p>Hot and spicy with grilled, marinated chicken<br/>
                 it can be served any assortments of your choice</p>
-                <p>$9.99</p>
+                <p>$20.99</p>
         </div>
         <div className= 'menu1'>
                 <img className='feat-img1' src= {chicken} alt=''/>
                     <h2>Jollof Rice and Chicken</h2>
                     <p>Hot and spicy with grilled, marinated chicken<br/>
                 it can be served any assortments of your choice</p>
-                <p>$9.99</p>
+                <p>$14.99</p>
         </div>
         
         </div>
