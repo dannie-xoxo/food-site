@@ -23,7 +23,7 @@
     align-items: center ;
     justify-content:space-between;
     padding: 0 10px;
-    /* box-shadow: 3px 3px rgba(194, 194, 194, .3);       */
+    box-shadow: 3px 3px rgba(194, 194, 194, .3);      
 }
 .mainNav {
    display: flex;
@@ -96,16 +96,16 @@
   
   .mainNav {
       position:fixed;
-      top: 10vh;
+      top: 5vh;
       right: 0;
       width: 60%;
-      height: 60%;
+      height: 50%;
       background:#fff;
       opacity: .9;
       flex-direction:column;
       transform: translateX(120%);
-       transition: 0.5s ease-in; 
-      margin: 10px 30px;
+      transition: 0.5s ease-in; 
+      margin: 10px 0;
       padding: 0;
   }
 

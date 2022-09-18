@@ -47,3 +47,37 @@
     width: 30%;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 769px) { 
+    .banner {
+        flex-direction: column;
+        background-color: var(--hover);
+        color: var(--light)
+    }
+    .head {
+        font-size: 2.8em;
+    }
+    .img-1 {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 3px solid var(--light);
+        padding: 15px;  
+    }
+    .btn {
+        color: var(--light);
+        background-color: transparent;
+        border: 2px solid #fff;
+        padding: 15px;
+        border-radius: 25px;
+        width: 40%;
+        margin: auto ;
+        
+    }
+    .cont2 {
+        display: flex;
+        flex: 1 50%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
