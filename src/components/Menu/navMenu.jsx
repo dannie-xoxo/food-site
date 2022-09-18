@@ -7,7 +7,7 @@ import chicken from '../images/chicken-2.jpg'
 function NavMenu() {
     return ( 
         <>
-        <div className= 'menu-container'>
+        <div className= 'menu-container' id='menu-container'>
         <div className='menu'>Menu
         </div>
         <nav className='nav-menu'>

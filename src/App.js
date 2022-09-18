@@ -6,6 +6,7 @@ import Btn from './components/Menu/btn';
 import NavMenu from './components/Menu/navMenu';
 import Reviews from './components/Reviews/reviews';
 import Blog from './components/Blog/blog';
+import Footer from './components/Footer/footer';
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <Btn />
       <Reviews />
       <Blog />
+      <Footer />
     </div>
   );
 }

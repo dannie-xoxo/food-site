@@ -6,7 +6,7 @@ import chicken from '../images/chicken-2.jpg';
 function Blog() {
     return ( 
         <>
-        <div className='blog-cont'>
+        <div className='blog-cont' id='blog-cont'>
             <h1 className='blog-head'>Blog Our Latest News</h1>
             <p className='blog-pg'>Have you ever browsed food blogs like mine
             and wondered <br/>

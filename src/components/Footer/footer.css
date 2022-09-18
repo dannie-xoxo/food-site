@@ -1,0 +1,28 @@
+.foot-cont {
+    background-color: #eee;
+    min-height: 300px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.foot-cont1 {
+    flex: 1.5;
+}
+.foot{
+    font-family: romantic;
+    font-size: 5em;
+    margin: 0;
+}
+
+.foot-cont2 {
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+
+}
+.foot-cont3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}

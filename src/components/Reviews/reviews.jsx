@@ -5,7 +5,7 @@ import daniel from '../images/img5.jpg';
 function Reviews() {
     return ( 
         <>
-        <div className='review-cont'>
+        <div className='review-cont' id='review-cont'>
             <div className='cont-1'>
                 <h1 className='rev-head'>What our customers say about us</h1>
                 <p className='rev-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
