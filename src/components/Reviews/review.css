@@ -46,3 +46,14 @@
     text-transform: uppercase;
     font-size: .8em;
 }
+
+@media screen and (max-width: 768px){
+    .review-cont {
+        display: flex;
+        flex-direction: column;
+    }
+     .rev-head {
+        font-size: 2em;
+     }
+     
+    }

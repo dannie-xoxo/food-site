@@ -9,6 +9,7 @@ function Footer() {
                 <h1 className='foot'>Meals..</h1>
                 <p>copyright &copy; 2022 </p>
             </div>
+            <div className="foot-cont-2">
             <div className="foot-cont2">
                 <h3>Company</h3>
                 <a href='#blog-cont'>Blog</a>
@@ -20,6 +21,7 @@ function Footer() {
                 <a href='#review-cont'>Reviews</a>
                 <a href='#faq'>FAQs</a>
                 <a href='#menu-container'>Our Menu</a>
+            </div>
             </div>
         </div>
         </>
