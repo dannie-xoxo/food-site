@@ -7,5 +7,5 @@ import chicken from '../images/chicken-2.jpg';
  import food6 from '../images/food6.jpg';
 
  const content=[chicken,food1,food2,food3, food4, food5, food6]
-
+ 
   export default content;

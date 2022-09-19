@@ -2,15 +2,34 @@ import '../Banner/banner.css';
 import { useState, useEffect } from 'react';
 import content from './bulkImages'
 
+
 function Banner() {
     const [count, setCount] = useState(0)
+    const [anim, setAnim] = useState({
+
+        transition:'opacity 2s linear',
+        opacity: 1,
+        visiblity:'visible'
+    })
 
     useEffect (() => { 
         const interval = setInterval(() => {
             setCount(content[Math.floor(Math.random()* content.length)]);
+            setAnim(content[{
+                transition:'visibility 0s 2s, opacity 2s linear',
+                opacity: 0,
+                visiblity:'hidden' 
+            }*content.length])
         },3000)
+        console.log('state changed...')
         return () => clearInterval(interval);
     },[])
+
+    // const animate = {
+    //     transition:'opacity 2s linear',
+    //     opacity: 1,
+    //     visiblity:'visible'
+    //  }
   
     return ( 
         <>
@@ -22,10 +41,10 @@ function Banner() {
             <button className='btn'>Get Started</button>
             </div>
             <div className='cont2'> 
-                    <img className='img-1' src= {count}alt=''/>
-               
+                <img className='img-1' src= {count} style={anim} alt=''/>
             </div>
         </div>
+
         </>
      );
 }
