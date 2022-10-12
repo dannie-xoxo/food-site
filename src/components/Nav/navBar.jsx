@@ -21,7 +21,7 @@ function NavBar() {
             <nav className='keyNav'>
            <h2 className='brand'>Meals...</h2>
            <ul className= {active}>
-                <li className='navItem'><a className='active' href="#Home" >Home</a></li>
+           <li className='navItem'><a className='active' href="#Home" >Home</a></li>
                 <li className='navItem'><a href="#menu-container" className='navLink'>Menu</a></li>
                 <li className='navItem'><a href="signIn" className='navLink'>Sign In</a></li>
                 <li className='navItem'><a href="#create" className='navLink'>Create Account</a></li>

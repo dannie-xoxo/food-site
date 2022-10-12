@@ -8,7 +8,10 @@ function Btn() {
 
     const clickHandler = () => {
         setDisplay(!display)
-        setName('Hide Menu' )
+        name === 'Show Full Menu'
+        ? setName('Hide Menu' )
+        : setName ('Show Full Menu')
+
     }
     return ( 
         <>
