@@ -39,6 +39,7 @@
     text-decoration: none;
     color: var(--dark);
     padding:  10px 20px;
+    
  }
 .active {
    background-color: var(--hover);
